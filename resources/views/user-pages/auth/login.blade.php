@@ -1,7 +1,7 @@
 @extends('user-pages.layouts.main-layout')
 @section('content')
 <div class="text-center">
-    
+    hello
 <main class="form-signin">
   <form method="post" action="{{route('set_login')}}">
    @csrf
